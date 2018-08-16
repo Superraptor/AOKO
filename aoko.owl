@@ -1,0 +1,3283 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#"
+     xml:base="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology"
+     xmlns:schema="http://schema.org/"
+     xmlns:edam="http://purl.obolibrary.org/obo/edam#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:oboInOwl="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#oboInOwl:"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:subject-ontology="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#"
+     xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/edam#identifiers -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/edam#identifiers"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/contributor -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/contributor">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/coverage -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/coverage">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/creator -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/date -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/date">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/description -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/format -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/format">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/identifier -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/identifier">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/language -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/language">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/publisher -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/publisher">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/relation -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/relation">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.org/dc/terms/Agent -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/Agent">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.org/dc/terms/AgentClass -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/AgentClass">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.org/dc/terms/BibliographicResource -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/BibliographicResource">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.org/dc/terms/ISO639-2 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/ISO639-2">
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/elements/1.1/language"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.org/dc/terms/ISO639-3 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/ISO639-3">
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/elements/1.1/language"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.org/dc/terms/LCC -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/LCC">
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/elements/1.1/identifier"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.org/dc/terms/LCSH -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/LCSH">
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/elements/1.1/identifier"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.org/dc/terms/Location -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/Location">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.org/dc/terms/MESH -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/MESH">
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/elements/1.1/identifier"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.org/dc/terms/NLM -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/NLM">
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/elements/1.1/identifier"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.org/dc/terms/UDC -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/UDC">
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/elements/1.1/identifier"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.org/dc/terms/identifier -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/identifier">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.org/dc/terms/isPartOf -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/isPartOf">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.org/dc/terms/isReferencedBy -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/isReferencedBy">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.org/dc/terms/language -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/language">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+        <rdfs:range rdf:resource="http://purl.org/dc/terms/LinguisticSystem"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.org/dc/terms/medium -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/medium">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+        <rdfs:range rdf:resource="http://purl.org/dc/terms/PhysicalMedium"/>
+        <rdfs:domain rdf:resource="http://purl.org/dc/terms/PhysicalResource"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.org/dc/terms/publisher -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/publisher">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.org/dc/terms/references -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/references">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.org/dc/terms/relation -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/relation">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.org/dc/terms/source -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/source">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.org/dc/terms/subject -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/subject">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.org/dc/terms/title -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/title">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.org/dc/terms/type -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/type">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://schema.org/Article -->
+
+    <owl:AnnotationProperty rdf:about="http://schema.org/Article">
+        <rdfs:subPropertyOf rdf:resource="http://schema.org/CreativeWork"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://schema.org/CreativeWork -->
+
+    <owl:AnnotationProperty rdf:about="http://schema.org/CreativeWork">
+        <rdfs:subPropertyOf rdf:resource="http://schema.org/Thing"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://schema.org/Intangible -->
+
+    <owl:AnnotationProperty rdf:about="http://schema.org/Intangible">
+        <rdfs:subPropertyOf rdf:resource="http://schema.org/Thing"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://schema.org/Organization -->
+
+    <owl:AnnotationProperty rdf:about="http://schema.org/Organization">
+        <rdfs:subPropertyOf rdf:resource="http://schema.org/Thing"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://schema.org/Periodical -->
+
+    <owl:AnnotationProperty rdf:about="http://schema.org/Periodical">
+        <rdfs:subPropertyOf rdf:resource="http://schema.org/CreativeWork"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://schema.org/Person -->
+
+    <owl:AnnotationProperty rdf:about="http://schema.org/Person">
+        <rdfs:subPropertyOf rdf:resource="http://schema.org/Thing"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://schema.org/Property -->
+
+    <owl:AnnotationProperty rdf:about="http://schema.org/Property">
+        <rdfs:subPropertyOf rdf:resource="http://schema.org/Intangible"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://schema.org/Quotation -->
+
+    <owl:AnnotationProperty rdf:about="http://schema.org/Quotation">
+        <rdfs:subPropertyOf rdf:resource="http://schema.org/CreativeWork"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://schema.org/ScholarlyArticle -->
+
+    <owl:AnnotationProperty rdf:about="http://schema.org/ScholarlyArticle">
+        <rdfs:subPropertyOf rdf:resource="http://schema.org/Article"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://schema.org/Thing -->
+
+    <owl:AnnotationProperty rdf:about="http://schema.org/Thing"/>
+    
+
+
+    <!-- http://schema.org/alternateName -->
+
+    <owl:AnnotationProperty rdf:about="http://schema.org/alternateName">
+        <rdfs:subPropertyOf rdf:resource="http://schema.org/Property"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://schema.org/founder -->
+
+    <owl:AnnotationProperty rdf:about="http://schema.org/founder">
+        <rdfs:subPropertyOf rdf:resource="http://schema.org/Person"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://schema.org/identifier -->
+
+    <owl:AnnotationProperty rdf:about="http://schema.org/identifier">
+        <rdfs:subPropertyOf rdf:resource="http://schema.org/Property"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://schema.org/inLanguage -->
+
+    <owl:AnnotationProperty rdf:about="http://schema.org/inLanguage">
+        <rdfs:subPropertyOf rdf:resource="http://schema.org/Property"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://schema.org/isbn -->
+
+    <owl:AnnotationProperty rdf:about="http://schema.org/isbn">
+        <rdfs:subPropertyOf rdf:resource="http://schema.org/identifier"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://schema.org/issn -->
+
+    <owl:AnnotationProperty rdf:about="http://schema.org/issn">
+        <rdfs:subPropertyOf rdf:resource="http://schema.org/identifier"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://schema.org/name -->
+
+    <owl:AnnotationProperty rdf:about="http://schema.org/name">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#AAT -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#AAT">
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/elements/1.1/identifier"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#BN -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#BN">
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/elements/1.1/identifier"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#BNCF -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#BNCF">
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/elements/1.1/identifier"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#BNCF_THESAURUS -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#BNCF_THESAURUS">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#BNCF"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#BRITANNICA -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#BRITANNICA">
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/elements/1.1/identifier"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#BRITANNICA_ONLINE -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#BRITANNICA_ONLINE">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#BRITANNICA"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#DDC -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#DDC">
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/elements/1.1/identifier"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#DDC_1 -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#DDC_1">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#DDC"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#DDC_18 -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#DDC_18">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#DDC"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#DDC_22 -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#DDC_22">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#DDC"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#DDC_23 -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#DDC_23">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#DDC"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#FREEBASE -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#FREEBASE">
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/elements/1.1/identifier"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#GND -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#GND">
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/elements/1.1/identifier"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#LCC_3 -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#LCC_3">
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/LCC"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#MESH_TN -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#MESH_TN">
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/MESH"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#MESH_UID -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#MESH_UID">
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/MESH"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#MSC -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#MSC">
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/elements/1.1/identifier"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#MSC_2010 -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#MSC_2010">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#MSC"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#NDL -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#NDL">
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/elements/1.1/identifier"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#NDL_AUTH -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#NDL_AUTH">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#NDL"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#PSH -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#PSH">
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/elements/1.1/identifier"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#UDC_2011 -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#UDC_2011">
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/UDC"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#UNESCO -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#UNESCO">
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/elements/1.1/identifier"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#UNESCO_THESAURUS -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#UNESCO_THESAURUS">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#UNESCO"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#WIKIDATA -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#WIKIDATA">
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/elements/1.1/identifier"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#acronym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#acronym">
+        <rdfs:subPropertyOf rdf:resource="http://schema.org/alternateName"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#alternative-spelling -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#alternative-spelling">
+        <rdfs:subPropertyOf rdf:resource="http://schema.org/alternateName"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#coined-by -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#coined-by">
+        <rdfs:subPropertyOf rdf:resource="http://schema.org/Person"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#electronic-issn -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#electronic-issn">
+        <rdfs:subPropertyOf rdf:resource="http://schema.org/issn"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#learned-society -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#learned-society">
+        <rdfs:subPropertyOf rdf:resource="http://schema.org/Organization"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#practiced-by -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#practiced-by">
+        <rdfs:subPropertyOf rdf:resource="http://schema.org/Property"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#preferred-name -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#preferred-name">
+        <rdfs:subPropertyOf rdf:resource="http://schema.org/name"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#print-issn -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#print-issn">
+        <rdfs:subPropertyOf rdf:resource="http://schema.org/issn"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#oboInOwl:hasDbXref -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#oboInOwl:hasDbXref"/>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#oboInOwl:hasDefinition -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#oboInOwl:hasDefinition"/>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#oboInOwl:hasExactSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#oboInOwl:hasExactSynonym"/>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#oboInOwl:hasNarrowSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#oboInOwl:hasNarrowSynonym"/>
+    
+
+
+    <!-- http://www.w3.org/1999/02/22-rdf-syntax-ns#Property -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#Class -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#label -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#label">
+        <rdfs:subPropertyOf rdf:resource="http://schema.org/Property"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#equivalentProperty -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2002/07/owl#equivalentProperty"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/terms/LinguisticSystem -->
+
+    <rdfs:Datatype rdf:about="http://purl.org/dc/terms/LinguisticSystem"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/PhysicalMedium -->
+
+    <rdfs:Datatype rdf:about="http://purl.org/dc/terms/PhysicalMedium"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/terms/PhysicalResource -->
+
+    <owl:Class rdf:about="http://purl.org/dc/terms/PhysicalResource"/>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#African_history -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#African_history">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#regional_history"/>
+        <preferred-name xml:lang="en">African history</preferred-name>
+        <oboInOwl:hasExactSynonym xml:lang="en">history of Africa</oboInOwl:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#Asian_history -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#Asian_history">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#regional_history"/>
+        <preferred-name xml:lang="en">Asian history</preferred-name>
+        <oboInOwl:hasExactSynonym xml:lang="en">history of Asia</oboInOwl:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#Australian_history -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#Australian_history">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#history_of_Oceania"/>
+        <preferred-name xml:lang="en">Australian history</preferred-name>
+        <oboInOwl:hasExactSynonym xml:lang="en">history of Australia</oboInOwl:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#Big_History -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#Big_History">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#general_history"/>
+        <preferred-name xml:lang="en">Big History</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#Chinese_history -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#Chinese_history">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#history_of_East_Asia"/>
+        <preferred-name xml:lang="en">Chinese history</preferred-name>
+        <oboInOwl:hasExactSynonym xml:lang="en">history of China</oboInOwl:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#Chinese_numerology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#Chinese_numerology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#numerology"/>
+        <preferred-name xml:lang="en">Chinese numerology</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#Eastern_esotericism -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#Eastern_esotericism">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#occultism"/>
+        <preferred-name xml:lang="en">Eastern esotericism</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#European_history -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#European_history">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#Asian_history"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#regional_history"/>
+        <preferred-name xml:lang="en">European history</preferred-name>
+        <oboInOwl:hasExactSynonym xml:lang="en">history of Europe</oboInOwl:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#Gnosticism -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#Gnosticism">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#Western_esotericism"/>
+        <preferred-name xml:lang="en">Gnosticism</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#Hermetism -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#Hermetism">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#Western_esotericism"/>
+        <alternative-spelling xml:lang="en">Hermeticism</alternative-spelling>
+        <preferred-name xml:lang="en">Hermetism</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#Rosicrucianism -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#Rosicrucianism">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#Western_esotericism"/>
+        <preferred-name xml:lang="en">Rosicrucianism</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#Theosophy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#Theosophy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#Western_esotericism"/>
+        <preferred-name xml:lang="en">Theosophy</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#Western_esotericism -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#Western_esotericism">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#occultism"/>
+        <preferred-name xml:lang="en">Western esotericism</preferred-name>
+        <oboInOwl:hasExactSynonym xml:lang="en">Western mystery tradition</oboInOwl:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#acupressure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#acupressure">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#manual_therapy"/>
+        <preferred-name xml:lang="en">acupressure</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#acupuncture -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#acupuncture">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#mind-body_medicine"/>
+        <preferred-name xml:lang="en">acupuncture</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#aesthetics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#aesthetics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#axiology"/>
+        <LCC_3>BH1-301</LCC_3>
+        <preferred-name xml:lang="en">aesthetics</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#alchemy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#alchemy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#occult_sciences"/>
+        <practiced-by xml:lang="en">alchemist</practiced-by>
+        <preferred-name xml:lang="en">alchemy</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#algebra -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#algebra">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#algebra_and_number_theory"/>
+        <DDC_18 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">512</DDC_18>
+        <DDC_22 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">512</DDC_22>
+        <DDC_23 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">512</DDC_23>
+        <LCC_3>QA150-272.5</LCC_3>
+        <UDC_2011 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">512</UDC_2011>
+        <preferred-name xml:lang="en">algebra</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#algebra_and_number_theory -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#algebra_and_number_theory">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#pure_mathematics"/>
+        <preferred-name xml:lang="en">algebra and number theory</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#alphabiotics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#alphabiotics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#mind-body_medicine"/>
+        <preferred-name xml:lang="en">alphabiotics</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#alternative_medicine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#alternative_medicine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#pseudoscience"/>
+        <preferred-name xml:lang="en">alternative medicine</preferred-name>
+        <oboInOwl:hasExactSynonym xml:lang="en">fringe medicine</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">pseudo-medicine</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">pseudomedicine</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">questionable medicine</oboInOwl:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#analysis -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#analysis">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#pure_mathematics"/>
+        <DDC_18 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">515</DDC_18>
+        <DDC_23 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">515</DDC_23>
+        <LCC_3>QA299.6-433</LCC_3>
+        <preferred-name xml:lang="en">analysis</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#ancient_history -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#ancient_history">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#recorded_history"/>
+        <DDC_1 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">930</DDC_1>
+        <LCC_3>D51-90</LCC_3>
+        <UDC_2011>94(3)</UDC_2011>
+        <practiced-by xml:lang="en">ancient historian</practiced-by>
+        <preferred-name xml:lang="en">ancient history</preferred-name>
+        <oboInOwl:hasExactSynonym xml:lang="en">ancient world history</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">history of ancient world</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">history of the ancient world</oboInOwl:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#angel_therapy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#angel_therapy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#spiritual_healing"/>
+        <preferred-name xml:lang="en">angel therapy</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#antisemitic_pseudohistory -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#antisemitic_pseudohistory">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#pseudohistory"/>
+        <alternative-spelling xml:lang="en">anti-semitic pseudohistory</alternative-spelling>
+        <preferred-name xml:lang="en">antisemitic pseudohistory</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#applied_arts -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#applied_arts">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#applied_humanities"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#arts"/>
+        <schema:alternateName xml:lang="en">applied art</schema:alternateName>
+        <preferred-name xml:lang="en">applied arts</preferred-name>
+        <oboInOwl:hasExactSynonym xml:lang="en">design art</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">design arts</oboInOwl:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#applied_behavioral_sciences -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#applied_behavioral_sciences">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#behavioral_sciences"/>
+        <preferred-name xml:lang="en">applied behavioral sciences</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#applied_ethics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#applied_ethics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#ethics"/>
+        <preferred-name xml:lang="en">applied ethics</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#applied_humanities -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#applied_humanities">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#humanities"/>
+        <preferred-name xml:lang="en">applied humanities</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#applied_kinesiology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#applied_kinesiology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#manual_therapy"/>
+        <acronym xml:lang="en">AK</acronym>
+        <preferred-name xml:lang="en">applied kinesiology</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#applied_mathematics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#applied_mathematics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#mathematics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#applied_sciences -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#applied_sciences">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#modern_science"/>
+        <schema:alternateName xml:lang="en">applied science</schema:alternateName>
+        <preferred-name xml:lang="en">applied sciences</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#arachnology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#arachnology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#arthropodology"/>
+        <practiced-by xml:lang="en">arachnologist</practiced-by>
+        <preferred-name xml:lang="en">arachnology</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#area_studies -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#area_studies">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#interdisciplinary_humanities"/>
+        <preferred-name xml:lang="en">area studies</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#areas_of_knowledge -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#areas_of_knowledge">
+        <schema:alternateName xml:lang="en">area of knowledge</schema:alternateName>
+        <acronym xml:lang="en">AOK</acronym>
+        <preferred-name xml:lang="en">areas of knowledge</preferred-name>
+        <oboInOwl:hasExactSynonym xml:lang="en">content area</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">content areas</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">knowledge field</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">knowledge fields</oboInOwl:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#arithmancy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#arithmancy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#numerology"/>
+        <schema:alternateName xml:lang="en">arithmomancy</schema:alternateName>
+        <preferred-name xml:lang="en">arithmancy</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#arithmetic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#arithmetic">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#pure_mathematics"/>
+        <AAT rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">300054525</AAT>
+        <DDC_1 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">511</DDC_1>
+        <DDC_22 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">513</DDC_22>
+        <DDC_23 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">513</DDC_23>
+        <WIKIDATA>Q11205</WIKIDATA>
+        <preferred-name xml:lang="en">arithmetic</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#art_therapy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#art_therapy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#mind-body_medicine"/>
+        <preferred-name xml:lang="en">art therapy</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#arthropodology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#arthropodology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#invertebrate_zoology"/>
+        <practiced-by xml:lang="en">arthropodology</practiced-by>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#arts -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#arts">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#arts_and_sciences"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#humanities"/>
+        <schema:alternateName xml:lang="en">art</schema:alternateName>
+        <schema:alternateName xml:lang="en">the arts</schema:alternateName>
+        <DDC_22 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">700</DDC_22>
+        <practiced-by xml:lang="en">artist</practiced-by>
+        <preferred-name xml:lang="en">arts</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#arts_and_sciences -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#arts_and_sciences">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#humanities_and_sciences"/>
+        <schema:alternateName xml:lang="en">art and science</schema:alternateName>
+        <schema:alternateName xml:lang="en">art and sciences</schema:alternateName>
+        <schema:alternateName xml:lang="en">arts and science</schema:alternateName>
+        <preferred-name xml:lang="en">arts and sciences</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#astrology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#astrology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#occult_sciences"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#pseudoastronomy"/>
+        <practiced-by xml:lang="en">astrologer</practiced-by>
+        <preferred-name xml:lang="en">astrology</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#attachment_therapy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#attachment_therapy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#pseudopsychology"/>
+        <alternative-spelling xml:lang="en">attachment therapy</alternative-spelling>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#autodynamics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#autodynamics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#pseudophysics"/>
+        <preferred-name xml:lang="en">autodynamics</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#autohemotherapy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#autohemotherapy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#ozone_therapy"/>
+        <preferred-name xml:lang="en">autohemotherapy</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#axiology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#axiology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#philosophy"/>
+        <AAT rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">300054283</AAT>
+        <WIKIDATA>Q186531</WIKIDATA>
+        <practiced-by xml:lang="en">axiologist</practiced-by>
+        <preferred-name xml:lang="en">axiology</preferred-name>
+        <oboInOwl:hasDefinition xml:lang="en">The study of the origin, nature, functions, types, and interrelations of values; value theory.</oboInOwl:hasDefinition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#baraminology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#baraminology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#creation_science"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#pseudobiology"/>
+        <preferred-name xml:lang="en">baraminology</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#basic_sciences -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#basic_sciences">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#modern_science"/>
+        <schema:alternateName xml:lang="en">basic science</schema:alternateName>
+        <preferred-name xml:lang="en">basic sciences</preferred-name>
+        <oboInOwl:hasExactSynonym xml:lang="en">fundamental research</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">fundamental science</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">pure research</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">pure science</oboInOwl:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#behavioral_sciences -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#behavioral_sciences">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#empirical_sciences"/>
+        <alternative-spelling xml:lang="en">behavioural sciences</alternative-spelling>
+        <preferred-name xml:lang="en">behavioral sciences</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#biblical_numerology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#biblical_numerology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#numerology"/>
+        <preferred-name xml:lang="en">biblical numerology</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#biodynamic_agriculture -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#biodynamic_agriculture">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#pseudoagriculture"/>
+        <preferred-name xml:lang="en">biodynamic agriculture</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#biologically-based_therapies -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#biologically-based_therapies">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#alternative_medicine"/>
+        <schema:alternateName xml:lang="en">biologically-based therapy</schema:alternateName>
+        <preferred-name xml:lang="en">biologically-based therapies</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#biology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#biology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#life_sciences"/>
+        <schema:Periodical xml:lang="en">Biology Letters</schema:Periodical>
+        <schema:Periodical xml:lang="en">Central European Journal of Biology</schema:Periodical>
+        <schema:Periodical xml:lang="en">Current Biology</schema:Periodical>
+        <schema:Periodical xml:lang="en">PLOS Biology</schema:Periodical>
+        <schema:Periodical xml:lang="en">Perspectives in Biology and Medicine</schema:Periodical>
+        <DDC_23 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">570</DDC_23>
+        <MESH_TN>H01.158.273</MESH_TN>
+        <MESH_UID>D001695</MESH_UID>
+        <practiced-by xml:lang="en">biologist</practiced-by>
+        <preferred-name xml:lang="en">biology</preferred-name>
+        <oboInOwl:hasDefinition xml:lang="en">One of the biological science disciplines concerned with the origin, structure, development, growth, function, genetics, and reproduction of animals, plants, and microorganisms.</oboInOwl:hasDefinition>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#biology"/>
+        <owl:annotatedProperty rdf:resource="http://schema.org/Periodical"/>
+        <owl:annotatedTarget xml:lang="en">Biology Letters</owl:annotatedTarget>
+        <electronic-issn>1744-957X</electronic-issn>
+        <print-issn>1744-9561</print-issn>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#biology"/>
+        <owl:annotatedProperty rdf:resource="http://schema.org/Periodical"/>
+        <owl:annotatedTarget xml:lang="en">Current Biology</owl:annotatedTarget>
+        <schema:issn>0960-9822</schema:issn>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#biology"/>
+        <owl:annotatedProperty rdf:resource="http://schema.org/Periodical"/>
+        <owl:annotatedTarget xml:lang="en">PLOS Biology</owl:annotatedTarget>
+        <electronic-issn>1545-7885</electronic-issn>
+        <print-issn>1544-9173</print-issn>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#biology"/>
+        <owl:annotatedProperty rdf:resource="http://schema.org/Periodical"/>
+        <owl:annotatedTarget xml:lang="en">Perspectives in Biology and Medicine</owl:annotatedTarget>
+        <electronic-issn>1529-8795</electronic-issn>
+        <print-issn>0031-5982</print-issn>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#botany -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#botany">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#systematic_biology"/>
+        <preferred-name xml:lang="en">botany</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#business_ethics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#business_ethics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#economic_and_business_ethics"/>
+        <preferred-name xml:lang="en">business ethics</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#carcinology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#carcinology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#arthropodology"/>
+        <practiced-by xml:lang="en">carcinologist</practiced-by>
+        <practiced-by xml:lang="en">crustacean biologist</practiced-by>
+        <practiced-by xml:lang="en">crustacean scientist</practiced-by>
+        <practiced-by xml:lang="en">crustacean zoologist</practiced-by>
+        <preferred-name xml:lang="en">carcinology</preferred-name>
+        <oboInOwl:hasExactSynonym xml:lang="en">crustacean biology</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">crustacean science</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">crustacean sciences</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">crustacean zoology</oboInOwl:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#chemistry -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#chemistry">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#physical_sciences"/>
+        <AAT rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">300054537</AAT>
+        <BN>00018123n</BN>
+        <BNCF_THESAURUS rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">788</BNCF_THESAURUS>
+        <BRITANNICA_ONLINE xml:lang="en">science/chemistry</BRITANNICA_ONLINE>
+        <DDC_22 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">540</DDC_22>
+        <DDC_23>541-547</DDC_23>
+        <FREEBASE>/m/01lj9</FREEBASE>
+        <GND>4009816-3</GND>
+        <LCC_3>QD1-999</LCC_3>
+        <MESH_TN>H01.181</MESH_TN>
+        <MESH_UID>D002621</MESH_UID>
+        <NDL_AUTH rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">00564393</NDL_AUTH>
+        <PSH rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5450</PSH>
+        <UNESCO_THESAURUS>concept143</UNESCO_THESAURUS>
+        <WIKIDATA>Q2329</WIKIDATA>
+        <learned-society xml:lang="en">American Chemical Society</learned-society>
+        <learned-society xml:lang="en">International Union of Pure and Applied Chemistry</learned-society>
+        <practiced-by xml:lang="en">chemist</practiced-by>
+        <preferred-name xml:lang="en">chemistry</preferred-name>
+        <preferred-name xml:lang="fr">chimie</preferred-name>
+        <preferred-name xml:lang="es">química</preferred-name>
+        <preferred-name xml:lang="ru">хи́мия</preferred-name>
+        <oboInOwl:hasDefinition xml:lang="en">A basic science concerned with the composition, structure, and properties of matter; and the reactions that occur between substances and the associated energy exchange.</oboInOwl:hasDefinition>
+        <oboInOwl:hasDefinition xml:lang="en">The branch of natural science that deals with the composition and constitution of substances and the changes that they undergo as a consequence of alterations in the constitution of their molecules.</oboInOwl:hasDefinition>
+        <oboInOwl:hasExactSynonym xml:lang="en">chemical science</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">chemical sciences</oboInOwl:hasExactSynonym>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#chemistry"/>
+        <owl:annotatedProperty rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#learned-society"/>
+        <owl:annotatedTarget xml:lang="en">American Chemical Society</owl:annotatedTarget>
+        <acronym xml:lang="en">ASC</acronym>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#chemistry"/>
+        <owl:annotatedProperty rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#learned-society"/>
+        <owl:annotatedTarget xml:lang="en">International Union of Pure and Applied Chemistry</owl:annotatedTarget>
+        <acronym xml:lang="en">IUPAC</acronym>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#chiropractic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#chiropractic">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#mind-body_medicine"/>
+        <preferred-name xml:lang="en">chiropractic</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#civil_engineering -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#civil_engineering">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#engineering"/>
+        <practiced-by xml:lang="en">civil engineer</practiced-by>
+        <preferred-name xml:lang="en">civil engineering</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#classical_physics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#classical_physics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#physics"/>
+        <preferred-name xml:lang="en">classical physics</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#cognitive_science -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#cognitive_science">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#information_sciences"/>
+        <preferred-name xml:lang="en">cognitive science</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#coleopterology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#coleopterology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#systematic_entomology"/>
+        <preferred-name xml:lang="en">coleopterology</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#colorpuncture -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#colorpuncture">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#veritable_energy_medicine"/>
+        <preferred-name xml:lang="en">colorpuncture</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#combinatorics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#combinatorics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#pure_mathematics"/>
+        <preferred-name xml:lang="en">combinatorics</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#comparative_and_world_histories -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#comparative_and_world_histories">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#conventional_history"/>
+        <preferred-name xml:lang="en">comparative and world histories</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#comparative_history -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#comparative_history">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#comparative_and_world_histories"/>
+        <preferred-name xml:lang="en">comparative history</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#computer_science -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#computer_science">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#formal_sciences"/>
+        <practiced-by xml:lang="en">computer scientist</practiced-by>
+        <preferred-name xml:lang="en">computer science</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#contemporary_history -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#contemporary_history">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#modern_history"/>
+        <preferred-name xml:lang="en">contemporary history</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#conventional_history -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#conventional_history">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#general_history"/>
+        <preferred-name xml:lang="en">conventional history</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#conversion_therapy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#conversion_therapy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#pseudopsychology"/>
+        <preferred-name xml:lang="en">conversion therapy</preferred-name>
+        <oboInOwl:hasExactSynonym xml:lang="en">reparative therapy</oboInOwl:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#cranio-sacral_therapy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#cranio-sacral_therapy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#manual_therapy"/>
+        <alternative-spelling xml:lang="en">craniosacral therapy</alternative-spelling>
+        <preferred-name xml:lang="en">cranio-sacral therapy</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#creation_biology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#creation_biology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#creation_science"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#pseudobiology"/>
+        <preferred-name xml:lang="en">creation biology</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#creation_science -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#creation_science">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#pseudoscience"/>
+        <preferred-name xml:lang="en">creation science</preferred-name>
+        <oboInOwl:hasExactSynonym xml:lang="en">scientific creationism</oboInOwl:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#creationist_cosmology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#creationist_cosmology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#creation_science"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#pseudoastronomy"/>
+        <preferred-name xml:lang="en">creationist cosmology</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#creationist_mathematics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#creationist_mathematics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#pseudomathematics"/>
+        <preferred-name xml:lang="en">creationist mathematics</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#cryptobotany -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#cryptobotany">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#pseudobiology"/>
+        <preferred-name xml:lang="en">cryptobotany</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#cryptohistory -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#cryptohistory">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#pseudohistory"/>
+        <preferred-name xml:lang="en">cryptohistory</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#cryptozoology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#cryptozoology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#pseudobiology"/>
+        <preferred-name xml:lang="en">cryptozoology</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#crystal_healing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#crystal_healing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#putative_energy_medicine"/>
+        <preferred-name xml:lang="en">crystal healing</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#dance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#dance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#performing_arts"/>
+        <preferred-name xml:lang="en">dance</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#dance_therapy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#dance_therapy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#mind-body_medicine"/>
+        <preferred-name xml:lang="en">dance therapy</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#descriptive_ethics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#descriptive_ethics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#ethics"/>
+        <preferred-name xml:lang="en">descriptive ethics</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#digital_humanities -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#digital_humanities">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#humanities"/>
+        <acronym xml:lang="en">DH</acronym>
+        <preferred-name xml:lang="en">digital humanities</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#dipterology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#dipterology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#systematic_entomology"/>
+        <preferred-name xml:lang="en">dipterology</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#divination -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#divination">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#occult_sciences"/>
+        <preferred-name xml:lang="en">divination</preferred-name>
+        <oboInOwl:hasExactSynonym xml:lang="en">divinatory arts</oboInOwl:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#earth_and_space_science -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#earth_and_space_science">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#physical_sciences"/>
+        <preferred-name xml:lang="en">earth and space science</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#earth_science -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#earth_science">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#earth_and_space_science"/>
+        <schema:alternateName xml:lang="en">earth sciences</schema:alternateName>
+        <MESH_TN>H01.277</MESH_TN>
+        <MESH_UID>D056448</MESH_UID>
+        <preferred-name xml:lang="en">earth science</preferred-name>
+        <oboInOwl:hasDefinition xml:lang="en">Fields of science encompassing studies and research from the disciplines of physics; chemistry; biological sciences; and mathematics; that are related to the planet Earth. Subfields include atmospheric chemistry; climatology; environmental sciences; geography; geology; geophysics; meteorology; oceanography; paleontology; mineralogy; and seismology.</oboInOwl:hasDefinition>
+        <oboInOwl:hasExactSynonym xml:lang="en">geoscience</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>geosciences</oboInOwl:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#economic_and_business_ethics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#economic_and_business_ethics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#applied_ethics"/>
+        <preferred-name xml:lang="en">economic and business ethics</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#economic_ethics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#economic_ethics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#economic_and_business_ethics"/>
+        <preferred-name xml:lang="en">economic ethics</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#electrogravitics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#electrogravitics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#pseudophysics"/>
+        <coined-by xml:lang="en">Thomas Townsend Brown</coined-by>
+        <preferred-name xml:lang="en">electrogravitics</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#empirical_sciences -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#empirical_sciences">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#basic_sciences"/>
+        <schema:alternateName xml:lang="en">empirical science</schema:alternateName>
+        <preferred-name xml:lang="en">empirical sciences</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#energy_medicine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#energy_medicine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#alternative_medicine"/>
+        <preferred-name xml:lang="en">energy medicine</preferred-name>
+        <oboInOwl:hasExactSynonym xml:lang="en">energy healing</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">energy therapies</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">energy therapy</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">psychic healing</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">spiritual healing</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">spiritual medicine</oboInOwl:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#engineering -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#engineering">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#applied_sciences"/>
+        <practiced-by xml:lang="en">engineer</practiced-by>
+        <preferred-name xml:lang="en">engineering</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#entomology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#entomology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#arthropodology"/>
+        <practiced-by xml:lang="en">entomologist</practiced-by>
+        <practiced-by xml:lang="en">insect biologist</practiced-by>
+        <practiced-by xml:lang="en">insect scientist</practiced-by>
+        <preferred-name xml:lang="en">entomology</preferred-name>
+        <oboInOwl:hasExactSynonym xml:lang="en">insect biology</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">insect science</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">insect sciences</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">insectology</oboInOwl:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#esoteric_healing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#esoteric_healing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#putative_energy_medicine"/>
+        <preferred-name xml:lang="en">esoteric healing</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#ethics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#ethics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#axiology"/>
+        <DDC_1 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">170</DDC_1>
+        <DDC_18 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">170</DDC_18>
+        <DDC_22 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">170</DDC_22>
+        <LCC_3>BJ1-1725</LCC_3>
+        <preferred-name xml:lang="en">ethics</preferred-name>
+        <oboInOwl:hasExactSynonym xml:lang="en">moral philosophy</oboInOwl:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#fine_arts -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#fine_arts">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#arts"/>
+        <schema:alternateName xml:lang="en">fine art</schema:alternateName>
+        <preferred-name xml:lang="en">fine arts</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#flood_geology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#flood_geology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#creation_science"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#pseudogeology"/>
+        <preferred-name xml:lang="en">flood geology</preferred-name>
+        <oboInOwl:hasExactSynonym xml:lang="en">creation geology</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">creationist flood geology</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">diluvial geology</oboInOwl:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#formal_sciences -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#formal_sciences">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#basic_sciences"/>
+        <schema:alternateName xml:lang="en">formal science</schema:alternateName>
+        <preferred-name xml:lang="en">formal sciences</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#general_chemistry -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#general_chemistry">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#chemistry"/>
+        <FREEBASE>/m/04gg_v9</FREEBASE>
+        <WIKIDATA>Q909510</WIKIDATA>
+        <preferred-name xml:lang="en">general chemistry</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#general_history -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#general_history">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#history"/>
+        <schema:alternateName xml:lang="en">history (general)</schema:alternateName>
+        <LCC_3>D1-2027</LCC_3>
+        <UDC_2011 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">94</UDC_2011>
+        <preferred-name xml:lang="en">general history</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#geometry -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#geometry">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#geometry_and_topology"/>
+        <preferred-name xml:lang="en">geometry</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#geometry_and_topology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#geometry_and_topology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#pure_mathematics"/>
+        <preferred-name xml:lang="en">geometry and topology</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#graphology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#graphology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#pseudopsychology"/>
+        <preferred-name xml:lang="en">graphology</preferred-name>
+        <oboInOwl:hasExactSynonym xml:lang="en">graphoanalysis</oboInOwl:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#hemipterology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#hemipterology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#systematic_entomology"/>
+        <preferred-name xml:lang="en">hemipterology</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#herpetology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#herpetology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#vertebrate_zoology"/>
+        <preferred-name xml:lang="en">herpetology</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#history -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#history">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#humanities"/>
+        <DDC_1 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">900</DDC_1>
+        <DDC_22 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">900</DDC_22>
+        <MESH_TN>K01.400</MESH_TN>
+        <MESH_UID>D006664</MESH_UID>
+        <UDC_2011>93/94</UDC_2011>
+        <practiced-by xml:lang="en">historian</practiced-by>
+        <preferred-name xml:lang="en">history</preferred-name>
+        <oboInOwl:hasDefinition xml:lang="en">The branch of knowledge that studies the past; the assessment of notable events.</oboInOwl:hasDefinition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#history_of_Earth -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#history_of_Earth">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#Big_History"/>
+        <preferred-name xml:lang="en">history of Earth</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#history_of_East_Asia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#history_of_East_Asia">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#Asian_history"/>
+        <preferred-name xml:lang="en">history of East Asia</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#history_of_North_America -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#history_of_North_America">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#history_of_the_Americas"/>
+        <DDC_22 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">970</DDC_22>
+        <DDC_23 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">980</DDC_23>
+        <preferred-name xml:lang="en">history of North America</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#history_of_Oceania -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#history_of_Oceania">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#regional_history"/>
+        <LCC_3>DU1-950</LCC_3>
+        <preferred-name xml:lang="en">history of Oceania</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#history_of_South_America -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#history_of_South_America">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#history_of_the_Americas"/>
+        <DDC_22 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">980</DDC_22>
+        <DDC_23 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">980</DDC_23>
+        <preferred-name xml:lang="en">history of South America</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#history_of_the_Americas -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#history_of_the_Americas">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#regional_history"/>
+        <UDC_2011>94(7/8)</UDC_2011>
+        <preferred-name xml:lang="en">history of the Americas</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#history_of_the_United_States -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#history_of_the_United_States">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#history_of_North_America"/>
+        <preferred-name xml:lang="en">history of the United States</preferred-name>
+        <oboInOwl:hasExactSynonym xml:lang="en">History of the U.S.</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">U.S. history</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">United States history</oboInOwl:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#humanities -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#humanities">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#humanities_and_sciences"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#parasciences"/>
+        <schema:alternateName xml:lang="en">arts and humanities</schema:alternateName>
+        <schema:alternateName xml:lang="en">humanities and arts</schema:alternateName>
+        <preferred-name xml:lang="en">humanities</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#humanities_and_sciences -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#humanities_and_sciences">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#scholarship"/>
+        <schema:alternateName xml:lang="en">humanities and science</schema:alternateName>
+        <schema:alternateName xml:lang="en">science and humanities</schema:alternateName>
+        <schema:alternateName xml:lang="en">science and the humanities</schema:alternateName>
+        <preferred-name xml:lang="en">humanities and sciences</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#hypnotherapy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#hypnotherapy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#pseudopsychology"/>
+        <alternative-spelling xml:lang="en">hypno-therapy</alternative-spelling>
+        <preferred-name xml:lang="en">hypnotherapy</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#ichthyology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#ichthyology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#vertebrate_zoology"/>
+        <DDC_1 xml:lang="en">597</DDC_1>
+        <learned-society xml:lang="en">American Society of Ichthyologists and Herpetologists</learned-society>
+        <practiced-by xml:lang="en">ichthyologist</practiced-by>
+        <preferred-name xml:lang="en">ichthyology</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#information_sciences -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#information_sciences">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#behavioral_sciences"/>
+        <schema:alternateName xml:lang="en">information science</schema:alternateName>
+        <preferred-name xml:lang="en">information sciences</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#interdisciplinary_humanities -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#interdisciplinary_humanities">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#humanities"/>
+        <preferred-name xml:lang="en">interdisciplinary humanities</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#invertebrate_zoology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#invertebrate_zoology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#systematic_zoology"/>
+        <practiced-by xml:lang="en">invertebrate biologist</practiced-by>
+        <practiced-by xml:lang="en">invertebrate zoologist</practiced-by>
+        <preferred-name xml:lang="en">invertebrate zoology</preferred-name>
+        <oboInOwl:hasExactSynonym xml:lang="en">invertebrate biology</oboInOwl:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#isopterology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#isopterology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#systematic_entomology"/>
+        <preferred-name xml:lang="en">isopterology</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#lepidopterology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#lepidopterology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#systematic_entomology"/>
+        <preferred-name xml:lang="en">lepidopterology</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#life_sciences -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#life_sciences">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#natural_sciences"/>
+        <schema:alternateName xml:lang="en">life science</schema:alternateName>
+        <preferred-name xml:lang="en">life sciences</preferred-name>
+        <oboInOwl:hasExactSynonym xml:lang="en">biological science</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">biological sciences</oboInOwl:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#light_therapy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#light_therapy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#veritable_energy_medicine"/>
+        <preferred-name xml:lang="en">light therapy</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#magnet_therapy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#magnet_therapy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#veritable_energy_medicine"/>
+        <preferred-name xml:lang="en">magnet therapy</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#magnetic_healing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#magnetic_healing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#putative_energy_medicine"/>
+        <preferred-name xml:lang="en">magnetic healing</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#mammalogy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#mammalogy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#vertebrate_zoology"/>
+        <practiced-by xml:lang="en">mammalogist</practiced-by>
+        <preferred-name xml:lang="en">mammalogy</preferred-name>
+        <oboInOwl:hasDefinition xml:lang="en">The study of mammals.</oboInOwl:hasDefinition>
+        <oboInOwl:hasExactSynonym xml:lang="en">mazology</oboInOwl:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#manual_therapy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#manual_therapy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#alternative_medicine"/>
+        <preferred-name xml:lang="en">manual therapy</preferred-name>
+        <oboInOwl:hasExactSynonym xml:lang="en">manipulative therapy</oboInOwl:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#mathematics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#mathematics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#formal_sciences"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#natural_sciences_and_mathematics"/>
+        <schema:Quotation xml:lang="en">One reason why mathematics enjoys special esteem, above all other sciences, is that its laws are absolutely certain and indisputable, while those of other sciences are to some extent debatable and in constant danger of being overthrown by newly discovered facts.</schema:Quotation>
+        <AAT rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">300054522</AAT>
+        <DDC_1 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">510</DDC_1>
+        <DDC_18 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">510</DDC_18>
+        <DDC_22 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">510</DDC_22>
+        <DDC_23 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">510</DDC_23>
+        <LCC_3>QA1-939</LCC_3>
+        <MESH_TN>H01.548</MESH_TN>
+        <MESH_UID>D008433</MESH_UID>
+        <UDC_2011 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">51</UDC_2011>
+        <UNESCO_THESAURUS>concept118</UNESCO_THESAURUS>
+        <WIKIDATA>Q395</WIKIDATA>
+        <alternative-spelling xml:lang="en">mathematicks</alternative-spelling>
+        <learned-society xml:lang="en">Institute of Mathematics and its Applications</learned-society>
+        <practiced-by xml:lang="en">mathematician</practiced-by>
+        <preferred-name xml:lang="es">matemáticas</preferred-name>
+        <preferred-name xml:lang="en">mathematics</preferred-name>
+        <preferred-name xml:lang="fr">mathématiques</preferred-name>
+        <preferred-name xml:lang="ru">матема́тика</preferred-name>
+        <oboInOwl:hasDefinition xml:lang="en">An abstract representational system used in the study of numbers, shapes, structure, change and the relationships between these concepts.</oboInOwl:hasDefinition>
+        <oboInOwl:hasDefinition xml:lang="en">The deductive study of shape, quantity, and dependence.</oboInOwl:hasDefinition>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#mathematics"/>
+        <owl:annotatedProperty rdf:resource="http://schema.org/Quotation"/>
+        <owl:annotatedTarget xml:lang="en">One reason why mathematics enjoys special esteem, above all other sciences, is that its laws are absolutely certain and indisputable, while those of other sciences are to some extent debatable and in constant danger of being overthrown by newly discovered facts.</owl:annotatedTarget>
+        <schema:Person xml:lang="en">Albert Einstein</schema:Person>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#media_psychology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#media_psychology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#applied_behavioral_sciences"/>
+        <preferred-name xml:lang="en">media psychology</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#medicine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#medicine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#science,_technology,_and_medicine"/>
+        <BN>00054133n</BN>
+        <BNCF_THESAURUS rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">770</BNCF_THESAURUS>
+        <DDC_1 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">610</DDC_1>
+        <FREEBASE>/m/04sh3</FREEBASE>
+        <GND>4038243-6</GND>
+        <MESH_TN>H02.403</MESH_TN>
+        <MESH_UID>D008511</MESH_UID>
+        <NDL_AUTH rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">00563899</NDL_AUTH>
+        <PSH rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12931</PSH>
+        <WIKIDATA>Q11190</WIKIDATA>
+        <preferred-name xml:lang="en">medicine</preferred-name>
+        <oboInOwl:hasDefinition xml:lang="en">The art and science of studying, performing research on, preventing, diagnosing, and treating disease, as well as the maintenance of health.</oboInOwl:hasDefinition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#medieval_science -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#medieval_science">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#sciences"/>
+        <schema:alternateName xml:lang="en">medieval sciences</schema:alternateName>
+        <alternative-spelling xml:lang="en">mediaeval science</alternative-spelling>
+        <alternative-spelling xml:lang="en">mediaeval sciences</alternative-spelling>
+        <alternative-spelling xml:lang="en">mediæval science</alternative-spelling>
+        <alternative-spelling xml:lang="en">mediæval sciences</alternative-spelling>
+        <preferred-name xml:lang="en">medieval science</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#melittology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#melittology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#systematic_entomology"/>
+        <preferred-name xml:lang="en">melittology</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#meta-ethics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#meta-ethics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#ethics"/>
+        <preferred-name xml:lang="en">meta-ethics</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#mind-body_medicine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#mind-body_medicine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#alternative_medicine"/>
+        <preferred-name xml:lang="en">mind-body medicine</preferred-name>
+        <oboInOwl:hasExactSynonym xml:lang="en">mind and body practices</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">mind-body interventions</oboInOwl:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#modern_history -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#modern_history">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#recorded_history"/>
+        <preferred-name xml:lang="en">modern history</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#modern_physics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#modern_physics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#physics"/>
+        <DDC_22 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">539</DDC_22>
+        <DDC_23 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">539</DDC_23>
+        <preferred-name xml:lang="en">modern physics</preferred-name>
+        <oboInOwl:hasDefinition xml:lang="en">As distinguished from classical physics, all physics discoveries made since approximately 1900, including relativity and quantum mechanics.</oboInOwl:hasDefinition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#modern_science -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#modern_science">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#sciences"/>
+        <schema:alternateName xml:lang="en">modern sciences</schema:alternateName>
+        <schema:founder xml:lang="en">Galileo Galilei</schema:founder>
+        <preferred-name xml:lang="en">modern science</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#music -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#music">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#performing_arts"/>
+        <preferred-name xml:lang="en">music</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#music_therapy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#music_therapy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#mind-body_medicine"/>
+        <preferred-name xml:lang="en">music therapy</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#myriapodology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#myriapodology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#arthropodology"/>
+        <preferred-name xml:lang="en">myriapodology</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#myrmecology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#myrmecology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#systematic_entomology"/>
+        <preferred-name xml:lang="en">myrmecology</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#nationalist_pseudohistory -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#nationalist_pseudohistory">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#pseudohistory"/>
+        <preferred-name xml:lang="en">nationalist pseudohistory</preferred-name>
+        <oboInOwl:hasExactSynonym xml:lang="en">national mysticism</oboInOwl:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#natural_magic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#natural_magic">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#occult_sciences"/>
+        <preferred-name xml:lang="en">natural magic</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#natural_sciences -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#natural_sciences">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#empirical_sciences"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#natural_sciences_and_mathematics"/>
+        <schema:alternateName xml:lang="es">ciencia natural</schema:alternateName>
+        <schema:alternateName xml:lang="en">natural science</schema:alternateName>
+        <schema:alternateName xml:lang="nl">natuurwetenschap</schema:alternateName>
+        <DDC_1 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">500</DDC_1>
+        <DDC_18 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">500.1</DDC_18>
+        <practiced-by xml:lang="en">natural scientist</practiced-by>
+        <preferred-name xml:lang="es">ciencias naturales</preferred-name>
+        <preferred-name xml:lang="en">natural sciences</preferred-name>
+        <preferred-name xml:lang="nl">natuurwetenschappen</preferred-name>
+        <preferred-name xml:lang="zh">自然科學</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#natural_sciences_and_mathematics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#natural_sciences_and_mathematics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#basic_sciences"/>
+        <schema:alternateName xml:lang="en">natural science and mathematics</schema:alternateName>
+        <DDC_23 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">500</DDC_23>
+        <preferred-name xml:lang="en">natural sciences and mathematics</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#neuro-linguistic_programming -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#neuro-linguistic_programming">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#pseudopsychology"/>
+        <preferred-name xml:lang="en">neuro-linguistic programming</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#nomative_ethics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#nomative_ethics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#ethics"/>
+        <preferred-name xml:lang="en">normative ethics</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#non-science -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#non-science">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#areas_of_knowledge"/>
+        <WIKIDATA>Q28954762</WIKIDATA>
+        <alternative-spelling xml:lang="en">nonscience</alternative-spelling>
+        <preferred-name xml:lang="en">non-science</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#number_theory -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#number_theory">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#algebra_and_number_theory"/>
+        <BN>00058298n</BN>
+        <BNCF_THESAURUS rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14101</BNCF_THESAURUS>
+        <BRITANNICA_ONLINE xml:lang="en">topic/number-theory</BRITANNICA_ONLINE>
+        <DDC_18 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">512.7</DDC_18>
+        <DDC_23 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">512.7</DDC_23>
+        <FREEBASE>/m/05dkb</FREEBASE>
+        <GND>4067277-3</GND>
+        <MSC_2010>11-XX</MSC_2010>
+        <NDL_AUTH rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">00570429</NDL_AUTH>
+        <PSH rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7177</PSH>
+        <UDC_2011 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">511</UDC_2011>
+        <practiced-by xml:lang="en">number theorist</practiced-by>
+        <preferred-name xml:lang="en">number theory</preferred-name>
+        <oboInOwl:hasDefinition xml:lang="en">The branch of pure mathematics concerned with the properties of integers.</oboInOwl:hasDefinition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#numerology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#numerology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#pseudomathematics"/>
+        <practiced-by xml:lang="en">numerologist</practiced-by>
+        <preferred-name xml:lang="en">numerology</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#occult_sciences -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#occult_sciences">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#occultism"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#pseudoscience"/>
+        <schema:alternateName xml:lang="en">occult science</schema:alternateName>
+        <preferred-name xml:lang="en">occult sciences</preferred-name>
+        <oboInOwl:hasExactSynonym xml:lang="en">arts, occult</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">occult arts</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">occult, the</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">sciences, occult</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">the occult</oboInOwl:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#occultism -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#occultism">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#parapsychology_and_occultism"/>
+        <practiced-by xml:lang="en">occultist</practiced-by>
+        <preferred-name xml:lang="en">occultism</preferred-name>
+        <oboInOwl:hasExactSynonym xml:lang="en">esoteric studies</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">esotericism</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">occult studies</oboInOwl:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#occulture -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#occulture">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#occultism"/>
+        <preferred-name xml:lang="en">occulture</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#odonatology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#odonatology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#systematic_entomology"/>
+        <preferred-name xml:lang="en">odonatology</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#operations_research -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#operations_research">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#applied_behavioral_sciences"/>
+        <preferred-name xml:lang="en">operations research</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#orthopterology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#orthopterology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#systematic_entomology"/>
+        <preferred-name xml:lang="en">orthopterology</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#ozone_therapy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#ozone_therapy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#biologically-based_therapies"/>
+        <preferred-name xml:lang="en">ozone therapy</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#parapsychology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#parapsychology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#parapsychology_and_occultism"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#pseudopsychology"/>
+        <preferred-name xml:lang="en">parapsychology</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#parapsychology_and_occultism -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#parapsychology_and_occultism">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#pseudo-scholarship"/>
+        <alternative-spelling xml:lang="en">parapsychology &amp; occultism</alternative-spelling>
+        <preferred-name xml:lang="en">parapsychology and occultism</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#parasciences -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#parasciences">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#non-science"/>
+        <schema:alternateName xml:lang="en">parascience</schema:alternateName>
+        <preferred-name xml:lang="en">parasciences</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#performing_arts -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#performing_arts">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#fine_arts"/>
+        <preferred-name xml:lang="en">performing arts</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#philosophy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#philosophy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#humanities"/>
+        <practiced-by xml:lang="en">philosopher</practiced-by>
+        <preferred-name xml:lang="en">philosophy</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#phrenology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#phrenology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#pseudopsychology"/>
+        <preferred-name xml:lang="en">phrenology</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#physical_sciences -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#physical_sciences">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#natural_sciences"/>
+        <schema:alternateName xml:lang="en">physical science</schema:alternateName>
+        <schema:alternateName xml:lang="en">science, physical</schema:alternateName>
+        <schema:alternateName xml:lang="en">sciences, physical</schema:alternateName>
+        <AAT rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">300054532</AAT>
+        <WIKIDATA>Q14632398</WIKIDATA>
+        <practiced-by xml:lang="en">physical scientist</practiced-by>
+        <preferred-name xml:lang="es">ciencias físicas</preferred-name>
+        <preferred-name xml:lang="nl">fysische wetenschappen</preferred-name>
+        <preferred-name xml:lang="en">physical sciences</preferred-name>
+        <preferred-name xml:lang="zh">物理科學</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#physics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#physics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#physical_sciences"/>
+        <DDC_1 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">530</DDC_1>
+        <DDC_22 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">530</DDC_22>
+        <DDC_23 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">530</DDC_23>
+        <LCC_3>QC1-999</LCC_3>
+        <MESH_TN>H01.671</MESH_TN>
+        <MESH_UID>D010825</MESH_UID>
+        <UDC_2011 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">53</UDC_2011>
+        <practiced-by xml:lang="en">physicist</practiced-by>
+        <preferred-name xml:lang="en">physics</preferred-name>
+        <oboInOwl:hasDefinition xml:lang="en">The branch of science concerned with the study of the 	properties and interactions of space, time, matter and energy.</oboInOwl:hasDefinition>
+        <oboInOwl:hasDefinition xml:lang="en">The study of those aspects of energy and matter in terms of elementary principles and laws.</oboInOwl:hasDefinition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#polygraphy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#polygraphy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#pseudopsychology"/>
+        <preferred-name xml:lang="en">polygraphy</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#post-classical_history -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#post-classical_history">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#recorded_history"/>
+        <preferred-name xml:lang="en">post-classical history</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#prehistory -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#prehistory">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#universal_history"/>
+        <preferred-name xml:lang="en">prehistory</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#primal_therapy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#primal_therapy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#pseudopsychology"/>
+        <preferred-name xml:lang="en">primal therapy</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#protoscience -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#protoscience">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#sciences"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#pseudo-scholarship -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#pseudo-scholarship">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#areas_of_knowledge"/>
+        <alternative-spelling xml:lang="en">pseudoscholarship</alternative-spelling>
+        <preferred-name xml:lang="en">pseudo-scholarship</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#pseudoagriculture -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#pseudoagriculture">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#pseudoscience"/>
+        <alternative-spelling xml:lang="en">pseudo-agriculture</alternative-spelling>
+        <preferred-name xml:lang="en">pseudoagriculture</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#pseudoarchaeology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#pseudoarchaeology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#pseudohistory"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#pseudoscience"/>
+        <preferred-name xml:lang="en">pseudoarchaeology</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#pseudoastronomy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#pseudoastronomy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#pseudoscience"/>
+        <preferred-name xml:lang="en">pseudoastronomy</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#pseudobiology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#pseudobiology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#pseudoscience"/>
+        <alternative-spelling xml:lang="en">pseudo-biology</alternative-spelling>
+        <preferred-name xml:lang="en">pseudobiology</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#pseudogeology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#pseudogeology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#pseudoscience"/>
+        <alternative-spelling xml:lang="en">pseudo-geology</alternative-spelling>
+        <preferred-name xml:lang="en">pseudogeology</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#pseudogeometry -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#pseudogeometry">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#pseudomathematics"/>
+        <alternative-spelling xml:lang="en">pseudo-geometry</alternative-spelling>
+        <preferred-name xml:lang="en">pseudogeometry</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#pseudohistory -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#pseudohistory">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#pseudo-scholarship"/>
+        <alternative-spelling xml:lang="en">pseudo-history</alternative-spelling>
+        <preferred-name xml:lang="en">pseudohistory</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#pseudolaw -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#pseudolaw">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#pseudo-scholarship"/>
+        <alternative-spelling xml:lang="en">pseudo-law</alternative-spelling>
+        <preferred-name xml:lang="en">pseudolaw</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#pseudolinguistics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#pseudolinguistics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#pseudoscience"/>
+        <preferred-name xml:lang="en">pseudolinguistics</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#pseudomathematics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#pseudomathematics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#pseudoscience"/>
+        <alternative-spelling xml:lang="en">pseudo-mathematics</alternative-spelling>
+        <practiced-by xml:lang="en">pseudomath</practiced-by>
+        <preferred-name xml:lang="en">pseudomathematics</preferred-name>
+        <oboInOwl:hasExactSynonym xml:lang="en">mathematical crankery</oboInOwl:hasExactSynonym>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#pseudomathematics"/>
+        <owl:annotatedProperty rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#practiced-by"/>
+        <owl:annotatedTarget xml:lang="en">pseudomath</owl:annotatedTarget>
+        <coined-by xml:lang="en">Augustus De Morgan</coined-by>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#pseudophilosophy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#pseudophilosophy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#pseudo-scholarship"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#pseudophysics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#pseudophysics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#pseudoscience"/>
+        <preferred-name xml:lang="en">pseudophysics</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#pseudopsychology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#pseudopsychology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#pseudoscience"/>
+        <alternative-spelling xml:lang="en">pseudo-psychology</alternative-spelling>
+        <preferred-name xml:lang="en">pseudopsychology</preferred-name>
+        <oboInOwl:hasExactSynonym xml:lang="en">pop psychology</oboInOwl:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#pseudoscience -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#pseudoscience">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#pseudo-scholarship"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#unscience"/>
+        <schema:alternateName xml:lang="en">pseudo-sciences</schema:alternateName>
+        <schema:alternateName xml:lang="en">pseudosciences</schema:alternateName>
+        <BN>01616805n</BN>
+        <BNCF_THESAURUS rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">54597</BNCF_THESAURUS>
+        <FREEBASE>/m/05r8t</FREEBASE>
+        <GND>4278343-4</GND>
+        <NDL_AUTH rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">001132738</NDL_AUTH>
+        <WIKIDATA>Q483677</WIKIDATA>
+        <alternative-spelling xml:lang="en">pseudo-science</alternative-spelling>
+        <preferred-name xml:lang="en">pseudoscience</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#pseudostatistics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#pseudostatistics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#pseudomathematics"/>
+        <preferred-name xml:lang="en">pseudostatistics</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#psychic_healing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#psychic_healing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#putative_energy_medicine"/>
+        <preferred-name xml:lang="en">psychic healing</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#psychoanalysis -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#psychoanalysis">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#pseudopsychology"/>
+        <preferred-name xml:lang="en">psychoanalysis</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#psychohistory -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#psychohistory">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#pseudohistory"/>
+        <preferred-name xml:lang="en">psychohistory</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#psychology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#psychology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#information_sciences"/>
+        <preferred-name xml:lang="en">psychology</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#pure_mathematics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#pure_mathematics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#mathematics"/>
+        <preferred-name xml:lang="en">pure mathematics</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#putative_energy_medicine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#putative_energy_medicine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#energy_medicine"/>
+        <preferred-name xml:lang="en">putative energy medicine</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#racist_pseudohistory -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#racist_pseudohistory">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#pseudohistory"/>
+        <preferred-name xml:lang="en">racist pseudohistory</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#recorded_history -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#recorded_history">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#universal_history"/>
+        <preferred-name xml:lang="en">recorded history</preferred-name>
+        <oboInOwl:hasExactSynonym xml:lang="en">written history</oboInOwl:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#regional_and_local_history -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#regional_and_local_history">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#conventional_history"/>
+        <preferred-name xml:lang="en">regional and local history</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#regional_history -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#regional_history">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#regional_and_local_history"/>
+        <preferred-name xml:lang="en">regional history</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#relational_sciences -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#relational_sciences">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#behavioral_sciences"/>
+        <preferred-name xml:lang="en">relational sciences</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#religious_pseudohistory -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#religious_pseudohistory">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#pseudohistory"/>
+        <preferred-name xml:lang="en">religious pseudohistory</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#scholarship -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#scholarship">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#areas_of_knowledge"/>
+        <preferred-name xml:lang="en">scholarship</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#science_and_technology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#science_and_technology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#science,_technology,_and_medicine"/>
+        <schema:alternateName xml:lang="en">technology and science</schema:alternateName>
+        <preferred-name xml:lang="en">science and technology</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#sciences -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#sciences">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#arts_and_sciences"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#science_and_technology"/>
+        <schema:Periodical xml:lang="en">Science</schema:Periodical>
+        <schema:Quotation xml:lang="en">Science, however, is not done by popular vote. Science is not done by consensus. Consensus is the stuff of politics; debate is the stuff of science. Science is never settled.</schema:Quotation>
+        <schema:alternateName xml:lang="en">science</schema:alternateName>
+        <DDC_22 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">500</DDC_22>
+        <DDC_23 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">500</DDC_23>
+        <MESH_TN>H01.770</MESH_TN>
+        <MESH_UID>D012586</MESH_UID>
+        <learned-society xml:lang="en">Association of Professional Engineers, Scientists and Managers Australia</learned-society>
+        <learned-society xml:lang="en">Japanese Union of Scientists and Engineers</learned-society>
+        <practiced-by xml:lang="en">scientist</practiced-by>
+        <preferred-name xml:lang="en">sciences</preferred-name>
+        <oboInOwl:hasDefinition xml:lang="en">The study of natural phenomena by observation, measurement, and experimentation.</oboInOwl:hasDefinition>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#sciences"/>
+        <owl:annotatedProperty rdf:resource="http://schema.org/Quotation"/>
+        <owl:annotatedTarget xml:lang="en">Science, however, is not done by popular vote. Science is not done by consensus. Consensus is the stuff of politics; debate is the stuff of science. Science is never settled.</owl:annotatedTarget>
+        <schema:Person xml:lang="en">Peter L. Ward</schema:Person>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#sciences"/>
+        <owl:annotatedProperty rdf:resource="http://schema.org/Periodical"/>
+        <owl:annotatedTarget xml:lang="en">Science</owl:annotatedTarget>
+        <electronic-issn>1095-9203</electronic-issn>
+        <print-issn>0036-8075</print-issn>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#social_sciences -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#social_sciences">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#empirical_sciences"/>
+        <schema:alternateName xml:lang="en">social science</schema:alternateName>
+        <preferred-name xml:lang="en">social sciences</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#space_science -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#space_science">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#earth_and_space_science"/>
+        <schema:alternateName xml:lang="en">space sciences</schema:alternateName>
+        <preferred-name xml:lang="en">space science</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#spiritual_healing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#spiritual_healing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#putative_energy_medicine"/>
+        <preferred-name xml:lang="en">spiritual healing</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#spiritualism -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#spiritualism">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#Western_esotericism"/>
+        <preferred-name xml:lang="en">spiritualism</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#statistics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#statistics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#applied_mathematics"/>
+        <practiced-by xml:lang="en">statistician</practiced-by>
+        <preferred-name xml:lang="en">statistics</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#systematic_biology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#systematic_biology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#biology"/>
+        <preferred-name xml:lang="en">systematic biology</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#systematic_entomology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#systematic_entomology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#entomology"/>
+        <practiced-by xml:lang="en">systematic entomologist</practiced-by>
+        <preferred-name xml:lang="en">systematic entomology</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#systematic_zoology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#systematic_zoology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#zoology"/>
+        <preferred-name xml:lang="en">systematic zoology</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#technology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#technology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#science_and_technology"/>
+        <preferred-name xml:lang="en">technology</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#theomatics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#theomatics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#biblical_numerology"/>
+        <coined-by xml:lang="en">Del Washburn</coined-by>
+        <preferred-name xml:lang="en">theomatics</preferred-name>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#theomatics"/>
+        <owl:annotatedProperty rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#coined-by"/>
+        <owl:annotatedTarget xml:lang="en">Del Washburn</owl:annotatedTarget>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1976</dc:date>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#topology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#topology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#geometry_and_topology"/>
+        <preferred-name xml:lang="en">topology</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#trichopterology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#trichopterology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#systematic_entomology"/>
+        <preferred-name xml:lang="en">trichopterology</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#ufology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#ufology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#pseudoscience"/>
+        <preferred-name xml:lang="en">ufology</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#universal_history -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#universal_history">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#conventional_history"/>
+        <preferred-name xml:lang="en">universal history</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#unscience -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#unscience">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#non-science"/>
+        <schema:alternateName xml:lang="en">unsciences</schema:alternateName>
+        <preferred-name xml:lang="en">unscience</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#veritable_energy_medicine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#veritable_energy_medicine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#energy_medicine"/>
+        <preferred-name xml:lang="en">veritable energy medicine</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#vertebrate_zoology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#vertebrate_zoology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#systematic_zoology"/>
+        <practiced-by xml:lang="en">vertebrate biologist</practiced-by>
+        <practiced-by xml:lang="en">vertebrate zoologist</practiced-by>
+        <preferred-name xml:lang="en">vertebrate zoology</preferred-name>
+        <oboInOwl:hasExactSynonym xml:lang="en">vertebrate biology</oboInOwl:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#vespology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#vespology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#systematic_entomology"/>
+        <preferred-name xml:lang="en">vespology</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#visual_arts -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#visual_arts">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#fine_arts"/>
+        <preferred-name xml:lang="en">visual arts</preferred-name>
+        <oboInOwl:hasExactSynonym xml:lang="en">visual art</oboInOwl:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#vortex-based_math -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#vortex-based_math">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#pseudomathematics"/>
+        <alternative-spelling xml:lang="en">vortex based math</alternative-spelling>
+        <preferred-name xml:lang="en">vortex-based math</preferred-name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#world_history -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#world_history">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#comparative_and_world_histories"/>
+        <schema:alternateName xml:lang="en">worlds history</schema:alternateName>
+        <DDC_23 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">909</DDC_23>
+        <UDC_2011>94(100)</UDC_2011>
+        <oboInOwl:hasExactSynonym xml:lang="en">global history</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">history of humanity</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">history of the world</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">human history</oboInOwl:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#zoology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#zoology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#systematic_biology"/>
+        <DDC_1 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">590</DDC_1>
+        <LCC_3>QL1-991</LCC_3>
+        <MESH_TN>H01.158.273.943</MESH_TN>
+        <MESH_UID>D015046</MESH_UID>
+        <UDC_2011 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">59</UDC_2011>
+        <learned-society xml:lang="en">Zoological Society of Japan</learned-society>
+        <practiced-by xml:lang="en">animal biologist</practiced-by>
+        <practiced-by xml:lang="en">animal scientist</practiced-by>
+        <practiced-by xml:lang="en">zoological scientist</practiced-by>
+        <practiced-by xml:lang="en">zoologist</practiced-by>
+        <preferred-name xml:lang="en">zoology</preferred-name>
+        <oboInOwl:hasDefinition xml:lang="en">The study of animals - their morphology, growth, distribution, classification, and behavior.</oboInOwl:hasDefinition>
+        <oboInOwl:hasExactSynonym xml:lang="en">animal biology</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">animal science</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">animal sciences</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">zoological science</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">zoological sciences</oboInOwl:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#366_geometry -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#366_geometry">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#pseudogeometry"/>
+        <preferred-name xml:lang="en">366 geometry</preferred-name>
+        <oboInOwl:hasExactSynonym xml:lang="en">366-degree geometry</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">megalithic geometry</oboInOwl:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#science,_technology,_and_medicine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#science,_technology,_and_medicine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2018/6/subject-ontology#arts_and_sciences"/>
+        <schema:alternateName xml:lang="en">science, technology and medicine</schema:alternateName>
+        <acronym xml:lang="en">STM</acronym>
+        <preferred-name xml:lang="en">science, technology, and medicine</preferred-name>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
