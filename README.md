@@ -10,6 +10,6 @@ The Areas of Knowledge Ontology (AOKO) is an ontology which includes academic di
 
 ## License
 
-This project is currently bound by the Apache 2.0 License. All mapped ontologies within AOKO are within Creative Commons, but my require separate requirements. Please check with their respective creators before utilizing.
+This project is currently bound by the Apache 2.0 License. All mapped ontologies within AOKO are within Creative Commons, but may require separate requirements. Please check with their respective creators before utilizing.
 
 ## Acknowledgments
